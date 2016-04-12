@@ -22,7 +22,7 @@
          sensor = yFirstGenericSensor();
 		
          if(sensor) {
-		 alert ('sensor');
+		 alert ('sensor online');
              serial = sensor.module().get_serialNumber();
              document.getElementById('serial').value = serial;
          }
